@@ -9,6 +9,7 @@ $.ajax({
 				alert(data);				
 				}
 			});
+				alert("dd");				
 	
 }
 
