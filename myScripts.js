@@ -6,7 +6,7 @@ $.ajax({
 				url:  "https://movilmultimediasa.com/abcMobil/post.php",  
 				data: {id: "dd"},
 				success: function(data) {				
-				alert("La receta se compartió con éxito puedes ver la publicación en tu muro");				
+				alert(data);				
 				}
 			});
 	
