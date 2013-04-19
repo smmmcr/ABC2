@@ -28,9 +28,9 @@ password="dd";
         async: false,
         //json object to sent to the authentication url
         data: '{"userName": "' + userName + '", "password" : "' + password + '"}',
-        success: function () {
+        success: function (data) {
 
-        alert("Thanks!"); 
+        alert(data); 
         }
     })
 
