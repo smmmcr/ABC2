@@ -5,8 +5,9 @@ $.ajax({
 				type: "POST",
 				url:  "https://movilmultimediasa.com/abcMobil/post.php",  
 				data: {id: "dd"},
-				success: function(data) {				
-				alert(data);				
+				success: function(data) {
+				alert("data")				
+				return data;				
 				}
 			});
 			//	alert("dd");				
