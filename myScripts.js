@@ -7,7 +7,7 @@ $.ajax({
 				data: {id: "dd"},
 				success: function(data) {
 				alert("data")				
-				return data;				
+				return "DD";				
 				}
 			});
 			//	alert("dd");				
