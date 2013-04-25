@@ -10,8 +10,7 @@ $.ajax({
 				return "DD";				
 				}
 			});
-			//	alert("dd");				
-	
+			//	alert("dd");	
 }
 
 function obtenreTextoSemana()
