@@ -1,7 +1,7 @@
 
 function doIt()
 {
-$.ajax({
+/*$.ajax({
 				type: "POST",
 				url:  "https://movilmultimediasa.com/abcMobil/post.php",  
 				data: {id: "dd"},
@@ -9,11 +9,12 @@ $.ajax({
 				alert("data")				
 				return "DD";				
 				}
-			});
+			});*/
 			//	alert("dd");	
+			return "calcu";
 }
 
-function obtenreTextoSemana()
+/*function obtenreTextoSemana()
 {
 return "ss";
 /*	return "Estilos de Aprendizaje"+
@@ -30,4 +31,4 @@ return "ss";
 "It has roots in a piece of classical Latin literature from "+
 "45 BC, making it over 2000 years old. Richard McClintock, "+
 ";*/
-}
+//}
