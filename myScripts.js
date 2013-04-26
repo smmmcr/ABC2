@@ -1,17 +1,17 @@
-
+var datos1;
 function doIt()
 {
-/*$.ajax({
+$.ajax({
 				type: "POST",
 				url:  "https://movilmultimediasa.com/abcMobil/post.php",  
 				data: {id: "dd"},
 				success: function(data) {
 				alert("data")				
-				return "DD";				
+				datos1="todo aqui";				
 				}
-			});*/
+			});
 			//	alert("dd");	
-			return "calcu";
+			return datos1;
 }
 
 /*function obtenreTextoSemana()
