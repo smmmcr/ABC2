@@ -15,18 +15,12 @@ $.ajax({
 }
 function getinfo()
 {
-	$.ajax({
-	url:"https://movilmultimediasa.com/abcMobil/post.php",
-	dataType:'jsonp',
-	crossDomain:true,
-	success:function(data){
-			return data;
-			alert(data);}
-	});
-	
-			//	alert("dd");
-				
-			return data;
+	$.getJSON(uri + '?function=' + 'check' + '&callback=?', function (json_data) {
+    if (json_data == 'true'){
+                }
+});
+
+
 }
 
 
