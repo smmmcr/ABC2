@@ -1,4 +1,4 @@
-var datos1;
+var datos;
 function doIt()
 {
 uri="https://movilmultimediasa.com/abcMobil/post.php";
