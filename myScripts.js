@@ -13,6 +13,20 @@ $.ajax({
 			//	alert("dd");	
 			return datos1;
 }
+function getinfo()
+{
+	$.ajax({
+	url:"https://movilmultimediasa.com/abcMobil/post.php",
+	dataType:'jsonp',
+	crossDomain:true,
+	success:function(data){
+			return data;
+			alert("d");}
+	});
+			//	alert("dd");	
+			return data;
+}
+
 
 /*function obtenreTextoSemana()
 {
