@@ -1,10 +1,11 @@
-var datos;
+var datos15;
+var datos1;
 function doIt()
 {
 uri="https://movilmultimediasa.com/abcMobil/post.php";
 	$.getJSON(uri + '?function=' + 'check' + '&callback=?', function (json_data) {
 
-				return json_data;
+				datos1= json_data;
 });				
 /*$.ajax({
 				type: "POST",
@@ -15,8 +16,8 @@ uri="https://movilmultimediasa.com/abcMobil/post.php";
 				datos1=data;				
 				}
 			});
-			//	alert("dd");	
-			return datos1;*/
+			alert("dd");*/	
+			return datos1;
 }
 function getinfo()
 {
@@ -25,10 +26,10 @@ $.getJSON(uri + '?function=' + 'check' + '&callback=?', function (json_data) {
 /*    if (json_data == 'true'){	
                 }*/
 			//	alert(json_data);
-			datos=json_data;
+			datos15=json_data;
 });
 
-return datos;
+return datos15;
 }
 
 
