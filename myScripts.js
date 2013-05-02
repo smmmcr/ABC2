@@ -21,15 +21,15 @@ uri="https://movilmultimediasa.com/abcMobil/post.php";
 function getinfo()
 {
 uri="https://movilmultimediasa.com/abcMobil/post.php";
-	$.getJSON(uri + '?function=' + 'check' + '&callback=?', function (json_data) {
+	cara=$.getJSON(uri + '?function=' + 'check' + '&callback=?', function (json_data) {
 /*    if (json_data == 'true'){
 	
                 }*/
-				alert(json_data);
+			//	alert(json_data);
 				return json_data;
 });
 
-
+return cara;
 }
 
 
