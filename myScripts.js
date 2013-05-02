@@ -17,8 +17,10 @@ function getinfo()
 {
 uri="https://movilmultimediasa.com/abcMobil/post.php";
 	$.getJSON(uri + '?function=' + 'check' + '&callback=?', function (json_data) {
-    if (json_data == 'true'){
-                }
+/*    if (json_data == 'true'){
+	
+                }*/
+				return json_data;
 });
 
 
