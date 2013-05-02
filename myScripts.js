@@ -1,7 +1,13 @@
 var datos1;
 function doIt()
 {
-$.ajax({
+uri="https://movilmultimediasa.com/abcMobil/post.php";
+	$.getJSON(uri + '?function=' + 'check' + '&callback=?', function (json_data) {
+/*    if (json_data == 'true'){
+	
+                }*/
+				return json_data;
+/*$.ajax({
 				type: "POST",
 				url:  "https://movilmultimediasa.com/abcMobil/post.php",  
 				data: {id: "dd"},
@@ -11,7 +17,7 @@ $.ajax({
 				}
 			});
 			//	alert("dd");	
-			return datos1;
+			return datos1;*/
 }
 function getinfo()
 {
