@@ -25,6 +25,7 @@ uri="https://movilmultimediasa.com/abcMobil/post.php";
 /*    if (json_data == 'true'){
 	
                 }*/
+				alert(json_data);
 				return json_data;
 });
 
