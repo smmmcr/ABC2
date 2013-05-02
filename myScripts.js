@@ -7,7 +7,7 @@ $.ajax({
 				url:  "https://movilmultimediasa.com/abcMobil/post.php",  
 				data: {id: "dd"},
 				success: function(data) {
-				//alert("data")				
+				alert("data")				
 				datos1=data;				
 				}
 			});
