@@ -9,12 +9,12 @@
 		<gap:platform name="webos" />
 		<gap:platform name="symbian.wrt" />
 		<gap:platform name="blackberry" project="widgets"/>
-	</gap:platforms>
+	</gap:platforms>	
 
-	<icon src="icon_128.png" width="128" height="128" gap:role="default" />
+	<icon src="icon_128.png" width="128" height="128" gap:role="default" />	
 
 	<preference name="permissions" value="none"/>
-
+	<access origin="*" />
 	<feature name="http://api.phonegap.com/1.0/network"/>	<preference name="orientation" value="portrait" />
 	<preference name="fullscreen" value="true" />
 	<preference name="target-device" value="universal" />
