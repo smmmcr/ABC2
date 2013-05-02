@@ -12,7 +12,6 @@
 	</gap:platforms>	
 
 	<icon src="icon_128.png" width="128" height="128" gap:role="default" />	
-
 	<preference name="permissions" value="none"/>
 	<access origin="*" />
 	<feature name="http://api.phonegap.com/1.0/network"/>	<preference name="orientation" value="portrait" />
