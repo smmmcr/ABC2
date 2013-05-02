@@ -23,6 +23,7 @@ function getinfo()
 			return data;
 			alert(data);}
 	});
+	
 			//	alert("dd");
 				
 			return data;
