@@ -21,9 +21,10 @@ function getinfo()
 	crossDomain:true,
 	success:function(data){
 			return data;
-			alert("d");}
+			alert(data);}
 	});
-			//	alert("dd");	
+			//	alert("dd");
+				
 			return data;
 }
 
