@@ -1,7 +1,6 @@
 var datos15;
 var datos1;
-function doIt()
-{
+function doIt(){
 $.ajax({
 				type: "POST",
 				url:  "https://movilmultimediasa.com/abcMobil/post.php",  
@@ -28,10 +27,10 @@ return datos15;
 }
 
 
-/*function obtenreTextoSemana()
+function obtenreTextoSemana()
 {
-return "ss";
-/*	return "Estilos de Aprendizaje"+
+//return "ss";
+	return "Estilos de Aprendizaje"+
 "Dummy text of the printing and typesetting industry."+ 
 "has been the industry's standard dummy text ever "+
 "since the 1500s, when an unknown printer took a galley "+
@@ -44,5 +43,5 @@ return "ss";
 "Contrary to popular belief, is not simply random text. "+
 "It has roots in a piece of classical Latin literature from "+
 "45 BC, making it over 2000 years old. Richard McClintock, "+
-";*/
-//}
+";
+}
