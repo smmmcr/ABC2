@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1367862496
+#1368045217
 index.html
 c2runtime.js
 jquery-1.7.1.min.js
@@ -10,6 +10,7 @@ images\btnjuegos-sheet0.png
 images\btntemasdeembarazo-sheet0.png
 images\btntemassemanales-sheet0.png
 images\hederprincipal-sheet0.png
+images\btndescuentosabc2-sheet0.png
 images\headerinfosemanall-sheet0.png
 images\imgcombfecha-sheet0.png
 images\imgcombfecha2-sheet0.png
@@ -30,8 +31,29 @@ images\btnincluir-sheet0.png
 images\btnvolver2-sheet0.png
 images\fondocomentariol-sheet0.png
 images\fondotextotemasemanal-sheet0.png
-images\tiledbackground.png
-images\btncomentarl-sheet0.png
+images\btnvolver3-sheet0.png
 images\headertemasemanall2-sheet0.png
+images\btncalculador-sheet0.png
+images\btncomentarl-sheet0.png
+images\btnejercicios-sheet0.png
+images\btnseleccnombre-sheet0.png
+images\fondomentemaemba-sheet0.png
+images\headertemasembarazo-sheet0.png
+images\btnvolver4-sheet0.png
+images\fondomendescuentos-sheet0.png
+images\headerdescuentos-sheet0.png
+images\lista-sheet0.png
+images\lista-sheet1.png
+images\lista2-sheet0.png
+images\lista2-sheet1.png
+images\lista3-sheet0.png
+images\vermas-sheet0.png
+images\headerjuegos-sheet0.png
+images\btnjugar-sheet0.png
+images\btnvolver5-sheet0.png
+images\fondomenujuegos-sheet0.png
+images\lista1juegos-sheet0.png
+images\lista2juegos-sheet0.png
+images\tiledbackground.png
 NETWORK:
 *
